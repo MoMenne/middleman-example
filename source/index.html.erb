@@ -1,6 +1,28 @@
 <main class="container-fluid">
 <div class="row">
 
+  <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+  <h4>Index</h4>
+	<ol>
+	  <% data.course.units.each do |f| %>
+		  <li>
+		  	<%= f.name %>
+			<ul>
+				<% f.modules.each do |m| %>
+					<li>
+					<%= link_to m.name, m.link %>
+					<% data.activities.select { |a| a.module == m.name }.each do |e| %>
+						<ul>
+							<li><%= link_to e.name, e.link %></li>	
+						</ul>
+				        <% end %>
+					</li>
+				<% end %>
+			</ul>
+		  </li>
+          <% end %>
+      </ol>
+  </section>
 
   <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
     <h1 id="this-is-launchcodes-cs50x">This is LaunchCode's CS50x!</h1>

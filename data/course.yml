@@ -1,0 +1,35 @@
+units: 
+ - name: Preseason
+   modules:
+    - name: Module 0
+      start_date: 1/19
+      link: 'calendar/module0'
+      description: "This Module introduces you to CS50x and gives you the foundation you’ll need before you start programming. You will be introduced to binary counting, algorithms, and additional concepts you’ll need to begin thinking like a computer programmer. By the end of the module, you will be familiar with pseudocode, and a graphical language called Scratch, which you'll use to complete Problem Set 0."
+      classes: 
+      - class_number: Class 0
+        date: TBD
+        before_class_text: Prep Work
+        before_class_link: :prep_work
+        during_class_text: In Class
+        during_class_link: in_class
+        topics: CS50 IDE setup, printf, basic math
+ - name: "Unit 1: Fundamentals"
+   modules:
+    - name: Module 1
+    - name: Module 2
+    - name: Module 3
+ - name: "Unit 2: Advanced C"
+   modules: 
+    - name: Module 4
+    - name: Module 5
+ - name: "Spring Break!"
+   modules:
+    - name: Module 0
+ - name: "Unit 3: Web Development"
+   modules: 
+    - name: Module 6
+    - name: Module 7
+    - name: Module 8
+ - name: "Postseason: Skill Tracks"
+   modules:
+    - name: TBD

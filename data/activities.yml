@@ -1,0 +1,20 @@
+- name: Week 0
+  module: Module 0
+  class: Class 0
+  type: Prep Work
+  header: Lecture
+  task: Watch
+  type: Lecture
+  link: https://www.youtube.com/watch?v=zFenJJtAEzE
+  instructions: Your first task is to watch the first lecture! There will be some Harvard-specific information in there (and some information about the class at Yale), so feel free to fast forward through that if you want.
+  tags: [binary, pseudo-code]
+- name: Week 0 / Binary
+  module: Module 0
+  class: Class 0
+  type: Prep Work
+  header: Binary and ASCII
+  task: Read
+  type: Lecture Notes
+  link: http://cdn.cs50.net/2015/fall/lectures/0/w/notes0w/notes0w.html#bin
+  instructions: Your first task is to watch the first lecture! There will be some Harvard-specific information in there (and some information about the class at Yale), so feel free to fast forward through that if you want.
+  tags: [binary, pseudo-code, algorithms]
